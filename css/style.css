@@ -1,8 +1,15 @@
 /* RESET */
 @import './global/global.css';
-/* COMPONENTS */
-@import './components/button.css';
+
 /* HEADER */
 @import './global/header.css';
+
+/* UTILS */
+@import './utils/typography.css';
+@import './utils/colors.css';
+
+/* COMPONENTS */
+@import './components/button.css';
+
 /* HOME */
 @import './home/intro.css';

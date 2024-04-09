@@ -1,5 +1,5 @@
 .header-bg {
-    background-color: black;
+    background-color: var(--base-12);
 }
 
 .header {
@@ -20,7 +20,6 @@
 }
 
 .header-menu a {
-    color: white;
     display: inline-block;
     padding: 1.6rem 0rem;
     font-size: 1.8rem;
@@ -34,7 +33,7 @@
     display: block;
     height: 0.2rem;
     width: 0;
-    background: white;
+    background: var(--base-0);
     margin-top: 0.4rem;
     transition: 0.3s;
     position: absolute;
@@ -49,12 +48,12 @@
         gap: 2rem;
     }
     .header-menu a {
-        background: #111111;
+        background: var(--base-11);
         padding: 1.2rem 1.6rem;
         border-radius: 4px;
     }
     .header-menu a:hover {
-        background-color: #2e2e2e;
+        background-color: var(--base-10);
     }
     .header-menu a:after {
         display: none;
