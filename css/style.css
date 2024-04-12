@@ -5,11 +5,15 @@
 @import './utils/typography.css';
 @import './utils/colors.css';
 
+/* COMPONENTS */
+@import './components/button.css';
+@import './components/container.css';
+
 /* HEADER */
 @import './global/header.css';
 
-/* COMPONENTS */
-@import './components/button.css';
-
 /* HOME */
 @import './home/intro.css';
+
+/* BIKES */
+@import './bikes/bike-list.css';
