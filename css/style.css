@@ -6,8 +6,9 @@
 @import './utils/colors.css';
 
 /* COMPONENTS */
-@import './components/button.css';
 @import './components/container.css';
+@import './components/button.css';
+@import './components/link.css';
 
 /* HEADER */
 @import './global/header.css';
