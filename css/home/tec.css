@@ -1,0 +1,16 @@
+.tec-bg {
+    background-color: var(--base-11);
+}
+
+.tec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.tec-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
