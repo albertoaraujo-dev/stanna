@@ -7,10 +7,20 @@
     text-transform: uppercase;
     color: var(--primary-5);
     font: 600 1.125rem/1.35 'Roboto', sans-serif;
+    max-width: max-content;
 }
 
 .button:hover {
     background: var(--primary-linear-hover);
+}
+
+.button.secondary {
+    background: var(--base-10);
+    color: var(--base-2);
+}
+
+.button.secondary:hover {
+    background: var(--base-9);
 }
 
 @media (max-width: 600px) {
