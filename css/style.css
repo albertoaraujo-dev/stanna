@@ -16,6 +16,7 @@
 /* HOME */
 @import './home/intro.css';
 @import './home/tec.css';
+@import './home/partners.css';
 
 /* BIKES */
 @import './bikes/bike-list.css';
