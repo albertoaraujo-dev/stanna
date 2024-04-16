@@ -1,0 +1,62 @@
+.feedback {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--primary-1);
+    overflow: hidden;
+}
+
+.feedback img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.feedback-content {
+    padding: 2.5rem 2.5rem 5rem 5rem;
+    align-self: end;
+}
+
+.feedback-content p {
+    max-width: 32ch;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.feedback p::before,
+.feedback p::after {
+    font-size: 5rem;
+    color: var(--primary-2);
+    position: absolute;
+}
+
+.feedback p::before {
+    content: '“';
+    left: -3.125rem;
+    top: -1.25rem;
+}
+
+.feedback p::after {
+    content: '”';
+}
+
+@media (max-width: 800px) {
+    .feedback {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .feedback img {
+        max-height: 12.5rem;
+    }
+    .feedback-content {
+        padding: 2.5rem 1.25rem;
+        justify-self: center;
+    }
+    .feedback p::before {
+        left: -1rem;
+        top: -1.25rem;
+    }
+}
