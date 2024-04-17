@@ -43,3 +43,22 @@
     grid-column: 1/-1;
     margin-top: 2.5rem;
 }
+
+@media (max-width: 800px) {
+    .footer > img {
+        display: none;
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        grid-template-columns: 1fr;
+        gap: 3.75rem;
+    }
+    .footer-copy {
+        margin-top: 0px;
+    }
+}
