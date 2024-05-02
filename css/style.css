@@ -9,6 +9,7 @@
 @import './components/container.css';
 @import './components/button.css';
 @import './components/link.css';
+@import './components/title.css';
 
 /* HEADER */
 @import './global/header.css';
