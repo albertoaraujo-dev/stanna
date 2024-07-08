@@ -7,6 +7,7 @@
     <meta name="description"
         content="Somos especialistas em inspeção, emissão de laudo técnico, projeto, instalação, manutenção e adequação de sistemas.">
     <title>Stanna - Soluções integradas</title>
+    <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,7 @@
     <header class="header-bg">
         <div class="header container">
             <a href="./">
-                <img src="./img/logo.svg" alt="Stanna">
+                <img src="./img/logo.svg" width="84" height="21" alt="Stanna">
             </a>
             <nav aria-label="primary">
                 <ul class="header-menu font-1-m color-base-0 ">
@@ -39,9 +40,11 @@
                 <p class="font-2-l color-base-5">Somos especialistas em inspeção, emissão de laudo técnico, projeto,
                     instalação, manutenção e adequação de sistemas.</p>
             </div>
-            <div>
-                <img src="./img/fotos/img-intro.png" alt="Bicicleta elétrica preta">
-            </div>
+            <picture>
+                <!-- <source media="(max-width: 800px)" srcset="./img/fotos/img-intro-mobile.png"> -->
+                <img src="./img/fotos/img-intro.png" width="1280" height="1600"
+                    alt="Homem sorrindo com uniforme de trabalho e equipamento de proteção individual">
+            </picture>
         </div>
     </main>
     <article class="services-list">
@@ -49,41 +52,79 @@
 
         <ul>
             <li>
-                <a href="./bikes/magic.html">
-                    <img src="./img/services/engenharia.png" alt="Bicicleta preta">
+                <a href="./services/engineering.html">
+                    <img src="./img/services/engineering.png" width="920" height="1040"
+                        alt="Local com obra em andamento">
                     <h3 class="font-1-xl">Engenharia Civil</h3>
                 </a>
             </li>
             <li>
-                <a href="./bikes/magic.html">
-                    <img src="./img/services/manutenção.png" alt="Bicicleta preta">
+                <a href="./services/maintenance.html">
+                    <img src="./img/services/maintenance.png" width="920" height="1040"
+                        alt="Homem trabalhando na manutenção do chão">
                     <h3 class="font-1-xl">Manutenção</h3>
                 </a>
             </li>
             <li>
-                <a href="./bikes/magic.html">
-                    <img src="./img/services/laudo.png" alt="Bicicleta preta">
+                <a href="./services/report.html">
+                    <img src="./img/services/report.png" width="920" height="1040"
+                        alt="Galpão de exemplo para laudo de engenharia">
                     <h3 class="font-1-xl">Laudos</h3>
                 </a>
             </li>
         </ul>
     </article>
+    <article class="tec-bg">
+        <div class="tec container">
+            <div class="tec-content">
+                <span class="font-2-l-b color-base-5">Foco no problema</span>
+                <h2 class="font-1-xxl color-base-0">nosso maior objetivo é resolver o seu problema<span
+                        class="color-primary-1">.</span>
+                </h2>
+                <p class="font-2-l color-base-5">Texto lindo e muito bem feito, Texto lindo e muito bem feito.Texto
+                    lindo e muito bem feitoTexto lindo e muito bem feitoTexto lindo e muito bem feitoTexto lindo e muito
+                    bem feitoTexto lindo e muito bem feito muito bem feito muito bem feito.</p>
+                <a class="link" href="./services.html">saiba mais</a>
+                <div class="tec-perks">
+                    <div>
+                        <img src="./img/icones/sustentavel.svg" width="24" height="24" alt="">
+                        <h3 class="font-1-m color-base-0">Sustentabilidade</h3>
+                        <p class="font-2-s color-base-5">Toda Bikcraft é equipada com um motor elétrico que possui
+                            duração
+                            de até 120h. A bateria é
+                            recarregada com a sua energia gasta ao pedalar.</p>
+                    </div>
+                    <div>
+                        <img src="./img/icones/rastreador.svg" width="24" height="24" alt="">
+                        <h3 class="font-1-m color-base-0">Eficiência</h3>
+                        <p class="font-2-s color-base-5">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos
+                            rastreadores e sistemas anti-furto
+                            para garantir o seu sossego.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tec-image">
+                <img src="./img/fotos/diferencial.png" width="1400" height="2240"
+                    alt="Homem construindo a fundação para imóvel">
+            </div>
+        </div>
+    </article>
     <section class="partners" aria-label="Ours Partners">
         <h2 class="container font-1-xxl">nossos parceiros<span class="color-primary-1">.</span></h2>
         <ul>
-            <li><img src="./img/parceiros/caravan.svg" alt="caravan"></li>
-            <li><img src="./img/parceiros/ranek.svg" alt="ranek"></li>
-            <li><img src="./img/parceiros/handel.svg" alt="handel"></li>
-            <li><img src="./img/parceiros/norsul-logo.svg" alt="dogs"></li>
-            <li><img src="./img/parceiros/riograndefumigacao-logo.svg" alt="lescone"></li>
-            <li><img src="./img/parceiros/planova-logo.svg" alt="flexblog"></li>
-            <li><img src="./img/parceiros/ifco-logo.svg" alt="wildbeast"></li>
-            <li><img src="./img/parceiros/mpd-logo.svg" alt="surfbot"></li>
+            <li><img src="./img/parceiros/caravan.svg" width="140" height="38" alt="caravan"></li>
+            <li><img src="./img/parceiros/ranek.svg" width="149" height="36" alt="ranek"></li>
+            <li><img src="./img/parceiros/handel.svg" width="139" height="50" alt="handel"></li>
+            <li><img src="./img/parceiros/norsul-logo.svg" width="250" height="31" alt="norsul"></li>
+            <li><img src="./img/parceiros/riograndefumigacao-logo.svg" width="275" height="77" alt="rgf"></li>
+            <li><img src="./img/parceiros/planova-logo.svg" width="235" height="68" alt="planova"></li>
+            <li><img src="./img/parceiros/ifco-logo.svg" width="191" height="59" alt="ifco"></li>
+            <li><img src="./img/parceiros/mpd-logo.svg" width="166" height="46" alt="mpd"></li>
         </ul>
     </section>
     <footer class="footer-bg">
         <div class="footer container">
-            <img src="./img/logo-full.svg" alt="Bikcraft">
+            <img src="./img/logo-full.svg" width="177" height="128" alt="Bikcraft">
             <div class="footer-contact">
                 <h3 class="font-2-l-b color-base-0">Contato</h3>
                 <ul class="font-2-m color-base-5">

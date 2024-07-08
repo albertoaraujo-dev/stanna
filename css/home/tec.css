@@ -1,0 +1,77 @@
+.tec-bg {
+    background-color: var(--base-11);
+    box-shadow: inset 0 5rem var(--base-0), inset 0 -5rem var(--base-0);
+}
+
+.tec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.tec-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.tec-content {
+    padding-block: 10rem;
+}
+
+.tec-content > span {
+    display: block;
+    margin-bottom: 1.25rem;
+}
+
+.tec-content h2 {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.tec-content > p {
+    margin-bottom: 1.25rem;
+}
+
+.tec-content a {
+    margin-bottom: 5rem;
+}
+
+.tec-perks {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.tec-perks h3 {
+    margin-bottom: 0.5rem;
+    width: max-content;
+}
+
+.tec-perks img {
+    width: 1.5rem;
+}
+
+@media (max-width: 800px) {
+    .tec-bg {
+        box-shadow: initial;
+    }
+    .tec {
+        grid-template-columns: 1fr;
+    }
+    .tec-content {
+        padding-block: 3.75rem;
+    }
+    .tec-image {
+        display: none;
+    }
+    .tec-content a {
+        margin-bottom: 3.75rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .tec-perks {
+        flex-direction: column;
+    }
+}
