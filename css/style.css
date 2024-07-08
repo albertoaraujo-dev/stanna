@@ -19,15 +19,10 @@
 
 /* HOME */
 @import './home/intro.css';
-@import './home/tec.css';
 @import './home/partners.css';
-@import './home/feedback.css';
 
 /* BIKES */
-@import './bikes/bike-list.css';
+@import './bikes/services-list.css';
 
-/* INSURANCE */
-@import './insurance/insurance.css';
-
-/* INSURANCE */
+/* TERMS */
 @import './terms/terms.css';

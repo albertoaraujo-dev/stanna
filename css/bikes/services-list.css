@@ -1,13 +1,13 @@
-.bikes-list {
+.services-list {
     padding-top: 3.75rem;
     padding-bottom: 7.5rem;
 }
 
-.bikes-list h2 {
+.services-list h2 {
     margin-bottom: 2.5rem;
 }
 
-.bikes-list ul {
+.services-list ul {
     display: flex;
     gap: 2.5rem;
     padding: 0 1.25rem 1.25rem 1.25rem;
@@ -16,25 +16,25 @@
     overflow-x: auto;
 }
 
-.bikes-list li {
+.services-list li {
     min-width: 17.5rem;
 }
 
-.bikes-list a {
+.services-list a {
     display: block;
 }
 
-.bikes-list img {
+.services-list img {
     margin-bottom: 1rem;
 }
 
-.bikes-list h3 {
+.services-list h3 {
     margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
 }
 
-.bikes-list h3:before {
+.services-list h3:before {
     content: '';
     display: inline-block;
     height: 0.5rem;
@@ -44,19 +44,19 @@
     transition: width 0.2s;
 }
 
-.bikes-list a:hover h3::before {
+.services-list a:hover h3::before {
     width: 1.5rem;
 }
 
-.bikes-list li span {
+.services-list li span {
     padding-left: 1.25rem;
 }
 
 @media (max-width: 800px) {
-    .bikes-list {
+    .services-list {
         padding-bottom: 3.75rem;
     }
-    .bikes-list ul {
+    .services-list ul {
         gap: 1.25rem;
     }
 }
