@@ -7,13 +7,15 @@
     <meta name="description"
         content="Somos especialistas em inspeção, emissão de laudo técnico, projeto, instalação, manutenção e adequação de sistemas.">
     <title>Stanna - Soluções integradas</title>
-    <link rel="preload" href="./css/style.css" as="style">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="./css/style.css.min.css.min.css" as="style">
+    <link rel="stylesheet" href="./css/style.css.min.css.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
+    <script>document.documentElement.classList.add('js')</script>
 </head>
 
 <body>
@@ -34,13 +36,14 @@
     <main class="intro-bg">
         <div class="intro container">
             <div class="intro-content">
-                <h1 class="font-1-xxl color-base-0">Sua segurança e tranquilidade são nossas prioridades<span
-                        class="color-primary-1">.</span>
+                <h1 class="font-1-xxl color-base-0 fadeInDown" data-anime="200">Sua segurança e tranquilidade são nossas
+                    prioridades<span class="color-primary-1">.</span>
                 </h1>
-                <p class="font-2-l color-base-5">Somos especialistas em inspeção, emissão de laudo técnico, projeto,
+                <p class="font-2-l color-base-5 fadeInDown" data-anime="400">Somos especialistas em inspeção, emissão de
+                    laudo técnico, projeto,
                     instalação, manutenção e adequação de sistemas.</p>
             </div>
-            <picture>
+            <picture class="fadeInDown" data-anime="400">
                 <!-- <source media="(max-width: 800px)" srcset="./img/fotos/img-intro-mobile.png"> -->
                 <img src="./img/fotos/img-intro.png" width="1280" height="1600"
                     alt="Homem sorrindo com uniforme de trabalho e equipamento de proteção individual">
@@ -159,6 +162,8 @@
             <p class="footer-copy font-2-m color-base-6">Stanna © Todos os direitos reservados.</p>
         </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

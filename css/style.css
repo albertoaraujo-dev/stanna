@@ -4,6 +4,7 @@
 /* UTILS */
 @import './utils/typography.css';
 @import './utils/colors.css';
+@import './utils/animation.css';
 
 /* COMPONENTS */
 @import './components/container.css';
