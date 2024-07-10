@@ -23,8 +23,9 @@
 @import './home/tec.css';
 @import './home/partners.css';
 
-/* BIKES */
-@import './bikes/services-list.css';
+/* SERVICES */
+@import './services/services-list.css';
+@import './services/services.css';
 
 /* TERMS */
 @import './terms/terms.css';
