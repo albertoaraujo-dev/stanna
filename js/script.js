@@ -15,16 +15,18 @@ if (window.SimpleAnime) {
     new SimpleAnime()
 }
 
-//
-let cookiesContent = document.getElementById('cookies')
+//cookies
+if (document.URL.includes('index')) {
+    let cookiesContent = document.getElementById('cookies')
 
-function acceptCookies() {
-    localStorage.lgpd = 'yes'
-    cookiesContent.classList.remove('show')
-}
+    function acceptCookies() {
+        localStorage.lgpd = 'yes'
+        cookiesContent.classList.remove('show')
+    }
 
-if (localStorage.lgpd == 'yes') {
-    cookiesContent.classList.remove('show')
-} else {
-    cookiesContent.classList.add('show')
+    if (localStorage.lgpd == 'yes') {
+        cookiesContent.classList.remove('show')
+    } else {
+        cookiesContent.classList.add('show')
+    }
 }
