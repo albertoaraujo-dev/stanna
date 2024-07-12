@@ -14,3 +14,17 @@ links.forEach(activeLink)
 if (window.SimpleAnime) {
     new SimpleAnime()
 }
+
+//
+let cookiesContent = document.getElementById('cookies')
+
+function acceptCookies() {
+    localStorage.lgpd = 'yes'
+    cookiesContent.classList.remove('show')
+}
+
+if (localStorage.lgpd == 'yes') {
+    cookiesContent.classList.remove('show')
+} else {
+    cookiesContent.classList.add('show')
+}
