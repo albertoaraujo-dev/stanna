@@ -1,0 +1,10 @@
+.btn-whats {
+    position: fixed;
+    bottom: 2%;
+    left: 94%;
+    /* transform: translate(-50%); */
+}
+
+.btn-whats img {
+    width: 5rem;
+}

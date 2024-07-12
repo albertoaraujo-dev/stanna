@@ -6,6 +6,7 @@
 @import './utils/colors.css';
 @import './utils/animation.css';
 @import './utils/cookies.css';
+@import './utils/floating-button.css';
 
 /* COMPONENTS */
 @import './components/container.css';
