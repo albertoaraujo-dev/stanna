@@ -7,6 +7,10 @@
     margin-bottom: 4px;
 }
 
+.title {
+    background: url('../../img/dec/top-right.svg') no-repeat top right 1.5rem;
+}
+
 @media (max-width: 800px) {
     .title-bg {
         padding-block: 2.5rem;

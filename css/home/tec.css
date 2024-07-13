@@ -1,5 +1,6 @@
 .tec-bg {
-    background-color: var(--base-11);
+    background: var(--base-11) url('../../img/dec/bottom-left.svg') no-repeat
+        bottom 7rem left 2rem;
     box-shadow: inset 0 5rem var(--base-0), inset 0 -5rem var(--base-0);
 }
 
@@ -35,12 +36,13 @@
 }
 
 .tec-content a {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .tec-perks {
     display: flex;
     gap: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .tec-perks h3 {
@@ -55,6 +57,7 @@
 @media (max-width: 800px) {
     .tec-bg {
         box-shadow: initial;
+        background: var(--base-11);
     }
     .tec {
         grid-template-columns: 1fr;

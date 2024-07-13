@@ -7,6 +7,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
     padding-block: 3.75rem;
+    background: url('../../img/dec/top-right.svg') no-repeat top 2.5rem right
+        1.5rem;
 }
 
 .services-content {
