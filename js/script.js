@@ -20,11 +20,11 @@ if (document.URL.includes('index')) {
     let cookiesContent = document.getElementById('cookies')
 
     function acceptCookies() {
-        localStorage.lgpd = 'yes'
+        localStorage.lgpdStanna = 'yes'
         cookiesContent.classList.remove('show')
     }
 
-    if (localStorage.lgpd == 'yes') {
+    if (localStorage.lgpdStanna == 'yes') {
         cookiesContent.classList.remove('show')
     } else {
         cookiesContent.classList.add('show')
