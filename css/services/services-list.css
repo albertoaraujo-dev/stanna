@@ -16,6 +16,10 @@
     overflow-x: auto;
 }
 
+#service .services-list ul {
+    padding: 0 0 1.25rem 0;
+}
+
 .services-list li {
     min-width: 17.5rem;
 }

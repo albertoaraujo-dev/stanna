@@ -29,5 +29,8 @@
 @import './services/services-list.css';
 @import './services/services.css';
 
+/* SERVICE */
+@import './service/service.css';
+
 /* TERMS */
 @import './terms/terms.css';
