@@ -1,0 +1,37 @@
+.mobile-menu {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid var(--base-0);
+    cursor: pointer;
+}
+
+.mobile-menu::before,
+.mobile-menu::after {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 3px;
+    background: var(--base-0);
+    margin-top: 8px;
+    position: relative;
+    transition: 0.3s;
+}
+
+@media (max-width: 800px) {
+    .mobile-menu {
+        position: relative;
+        display: block;
+        z-index: 1;
+    }
+    .navbar.active .mobile-menu {
+        border-top-color: transparent;
+    }
+    .navbar.active .mobile-menu::before {
+        transform: rotate(135deg);
+    }
+    .navbar.active .mobile-menu::after {
+        transform: rotate(-135deg);
+        top: -11px;
+    }
+}

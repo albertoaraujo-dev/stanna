@@ -4,6 +4,10 @@
     left: 94%;
 }
 
+.btn-whats.hide {
+    display: none;
+}
+
 .btn-whats img {
     width: 4rem;
 }

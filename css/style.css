@@ -13,6 +13,7 @@
 @import './components/button.css';
 @import './components/link.css';
 @import './components/title.css';
+@import './components/mobile-menu.css';
 
 /* HEADER */
 @import './global/header.css';
@@ -31,6 +32,10 @@
 
 /* SERVICE */
 @import './service/service.css';
+
+/* CONTACT */
+@import './contact/contact.css';
+@import './contact/form.css';
 
 /* TERMS */
 @import './terms/terms.css';
