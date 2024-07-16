@@ -8,8 +8,8 @@
         content="Somos especialistas em inspeção, emissão de laudo técnico, projeto, instalação, manutenção e adequação de sistemas.">
     <title>Contato | Stanna</title>
     <link rel="icon" href="./img/favicon.svg" width="93" height="146" type="image/svg+xml">
-    <link rel="preload" href="./css/style.min.css" as="style">
-    <link rel="stylesheet" href="./css/style.min.css" as="style">
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css" as="style">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,7 +24,8 @@
             <a href="./">
                 <img src="./img/logo.svg" width="84" height="21" alt="Stanna">
             </a>
-            <nav aria-label="primary">
+            <nav aria-label="primary" class="navbar">
+                <button class="mobile-menu"></button>
                 <ul class="header-menu font-1-m color-base-0 ">
                     <li><a href="./history.html">Quem somos</a></li>
                     <li><a href="./services.html">Serviços</a></li>
@@ -33,7 +34,60 @@
             </nav>
         </div>
     </header>
-    <h1>Contato</h1>
+    <main>
+        <div class="title-bg">
+            <div class="title container">
+                <p class="font-2-l-b color-base-5">Respostas em até 24h</p>
+                <h1 class="font-1-xxl color-base-0">nosso contato<span class="color-primary-1">.</span></h1>
+            </div>
+        </div>
+        <div class="contact container">
+            <section aria-label="address" class="contact-data">
+                <h2 class="font-1-m color-base-0">Fale conosco</h2>
+                <div class="contact-address font-2-s color-base-4">
+                    <p>Rua Das Esmeraldas, 395</p>
+                    <p>Sala 121 - Jardim</p>
+                    <p>Santo André - SP | CEP: 09090-770</p>
+                </div>
+                <address class="contact-means font-2-s color-base-4">
+                    <a href="mailto:contato@stanna.com.br">contato@stanna.com.br</a>
+                    <a href="tel:+551127580103">Tel: (11) 27580103</a>
+                </address>
+                <div class="contact-socials">
+                    <a href="./">
+                        <img src="./img/redes/instagram-p.svg" alt="Instagram">
+                    </a>
+                    <a href="./">
+                        <img src="./img/redes/facebook-p.svg" alt="Facebook">
+                    </a>
+                    <a href="./">
+                        <img src="./img/redes/youtube-p.svg" alt="YouTube">
+                    </a>
+                </div>
+            </section>
+            <section aria-label="form" class="contact-form">
+                <form class="form" action="./contact.html">
+                    <div>
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Seu nome">
+                    </div>
+                    <div>
+                        <label for="phone">Telefone</label>
+                        <input type="text" id="phone" name="phone" placeholder="(11 999999999)">
+                    </div>
+                    <div class="col-2">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email" placeholder="contato@email.com">
+                    </div>
+                    <div class="col-2">
+                        <label for="message">Mensagem</label>
+                        <input type="text" id="message" name="message" placeholder="O que você precisa?">
+                    </div>
+                    <button class="button col-2">Enviar Mensagem</button>
+                </form>
+            </section>
+        </div>
+    </main>
     <footer class="footer-bg">
         <div class="footer container">
             <img src="./img/logo-full.svg" width="177" height="128" alt="Stanna">
@@ -41,7 +95,7 @@
                 <h3 class="font-2-l-b color-base-0">Contato</h3>
                 <ul class="font-2-m color-base-5">
                     <li><a href="tel:+551127580103">Tel: (11) 27580103</a></li>
-                    <li><a href="mailto:contato@bikcraft.com">contato@stanna.com.br</a></li>
+                    <li><a href="mailto:contato@stanna.com.br">contato@stanna.com.br</a></li>
                     <li>Rua Das Esmeraldas, 395 - Sala 121 - Jardim</li>
                     <li>Santo André - SP | CEP: 09090-770</li>
                 </ul>

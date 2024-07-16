@@ -10,6 +10,7 @@
     max-width: max-content;
     cursor: pointer;
     white-space: nowrap;
+    border: none;
 }
 
 .button:hover {
