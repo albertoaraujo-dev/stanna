@@ -37,8 +37,10 @@ const navBar = document.querySelector('.navbar')
 const buttonWhats = document.querySelector('.btn-whats')
 
 function mobileMenuActions() {
+    if (document.URL.includes('index')) {
+        buttonWhats.classList.toggle('hide')
+    }
     navBar.classList.toggle('active')
-    buttonWhats.classList.toggle('hide')
 }
 
 mobileMenu.addEventListener('click', () => mobileMenuActions())
