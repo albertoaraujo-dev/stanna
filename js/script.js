@@ -4,7 +4,7 @@ function activeLink(link) {
     const url = location.href
     const href = link.href
     if (url.includes(href)) {
-        link.classList.add('ativo')
+        link.classList.add('active')
     }
 }
 
@@ -35,9 +35,10 @@ if (document.URL.includes('index')) {
 const mobileMenu = document.querySelector('.mobile-menu')
 const navBar = document.querySelector('.navbar')
 const buttonWhats = document.querySelector('.btn-whats')
+const url = location.href
 
 function mobileMenuActions() {
-    if (document.URL.includes('index')) {
+    if (document.URL == 'https://www.stanna.com.br/') {
         buttonWhats.classList.toggle('hide')
     }
     navBar.classList.toggle('active')

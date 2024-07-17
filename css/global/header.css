@@ -35,7 +35,7 @@
 }
 
 .header-menu a:hover::after,
-.header-menu a.ativo::after {
+.header-menu a.active::after {
     width: 100%;
 }
 
