@@ -1,3 +1,4 @@
+//animation
 const links = document.querySelectorAll('.header-menu a')
 
 function activeLink(link) {
@@ -10,26 +11,21 @@ function activeLink(link) {
 
 links.forEach(activeLink)
 
-//animation
 if (window.SimpleAnime) {
     new SimpleAnime()
 }
 
 //cookies
-if (document.URL.includes('index')) {
-    let cookiesContent = document.getElementById('cookies')
-
-    function acceptCookies() {
-        localStorage.lgpdStanna = 'yes'
-        cookiesContent.classList.remove('show')
-    }
-
-    if (localStorage.lgpdStanna == 'yes') {
-        cookiesContent.classList.remove('show')
-    } else {
-        cookiesContent.classList.add('show')
-    }
+function acceptCookies() {
+    localStorage.lgpdStanna = 'yes'
+    cookiesContent.classList.remove('show')
 }
+
+let cookiesContent = document.getElementById('cookies')
+
+localStorage.lgpdStanna != 'yes'
+    ? cookiesContent.classList.add('show')
+    : cookiesContent.classList.remove('show')
 
 //mobile menu
 const mobileMenu = document.querySelector('.mobile-menu')
