@@ -35,6 +35,24 @@
     box-shadow: 0 0 0 2px #fea;
 }
 
+.success,
+.error {
+    font: 400 1.5rem/1.5 'Roboto', sans-serif;
+    color: var(--base-12);
+    grid-column: 1/-1;
+    padding: 1rem;
+    background: var(--base-1);
+    border-radius: 4px;
+}
+
+.success span {
+    color: #317a00;
+}
+
+.error span {
+    color: #7a0000;
+}
+
 @media (max-width: 600px) {
     .form {
         grid-template-columns: 1fr;
